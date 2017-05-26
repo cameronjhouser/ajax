@@ -1,0 +1,401 @@
+body{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Sans-Serif;
+	font-size: 20px;
+}
+
+.logo {
+    height: 75px;
+    padding: 0px;
+    float: left;
+    position: absolute;
+    margin: 20px 20px 20px 5px;
+    border-radius: 5px;
+}
+
+#header-name{
+  float: right;
+  margin: 20px 20px 20px 150px;
+  position: relative;
+  font-size: 30px;
+ }
+
+#banner{
+  width:1000px;
+  height: 150px;
+  background-color: blue;
+}
+
+#header-name{
+  float: left;
+  position: relative;
+}
+
+#search{
+  float: right;
+  text-align: left;
+  position: relative;
+  margin: 5px 10px 0px 5px;
+  font-size: 20px;
+}
+
+
+#mainNav{
+  float: right;
+  padding: 5px 0px 0px 600px;
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+}
+
+#storeFront{
+  width: 100%;
+  height: 605px;
+}
+
+#shop {
+	width: 100%;
+	background-color: #333333;
+	position: relative;
+	
+}
+
+.iceCream {
+	background: url("img/cannoli-ice-cream8+srgb..jpg") center top no-repeat;
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	margin: 0px 1px 1px 0px;
+	border-radius: 5px;
+}
+
+
+.cakesCookies {
+	background: url("img/raspberry-lemonade-cupcakes.jpg") center center no-repeat;
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	margin: 0px 1px 1px 1px;
+ 	border-radius: 5px;
+}
+
+.drinks {
+	background: url("img/strawberry-colada-smoothies3-srgb..jpg") center center no-repeat;
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	margin: 0px 0px 1px 1px;
+	border-radius: 5px;
+}
+
+.pieCheeseCake {
+	background: url("img/oreo-cheesecake-4.jpg") center center no-repeat;
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	margin: 0px 0px 1px 1px;
+	border-radius: 5px;
+}
+
+.soup {
+	background: url("img/6_ingredient_tomato_soup3.jpg") center center no-repeat;
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	margin: 0px 1px 1px 1px;
+	border-radius: 5px;
+}
+
+
+.breakfast {
+	background: url("img/blueberry_cheesecake_protein_breakfast_shake6..jpg") center center no-repeat;
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-size: 40px;
+	position: relative;
+	margin: 0px 0px 1px 1px;
+	border-radius: 5px;
+}
+
+#endBlock > p {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+#copyRight {
+	position: relative;
+	color: red;
+
+}
+
+#endNav > a {
+  float: right;
+  padding: 0px 0px 50px 0px;
+  text-align: center;
+  position: relative;
+}
+
+.merchBtn {
+	border-radius: 5px;
+	width: 150px;
+	border: 3px solid;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	color: #333333;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.4); 
+	transition: all 0.3s ease;
+	position: relative;
+	top: 40%
+}
+
+
+#button {
+	font-size: 25px;
+	color: orange;
+	background-color: green);
+	float: right;
+	margin: 5px 5px 5px 5px;
+}
+
+/* Box design from: http://www.webdesignerdepot.com*/
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	margin: 50px 50px 50px 50px;
+}
+
+.modalDialogMap:map {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialogMap {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+	margin: 50px 50px 50px 50px;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+#order{
+	font-size: 20px;
+	color: white;
+
+	
+}
+
+h2{
+	color: red;
+	text-align: center;
+}
+
+
+#items{
+	float: left;
+	columns: 2;
+	text-align: center;
+	margin: 5px 5px 5px 50px;
+	border: 1px solid white; width: 30%;
+	position: relative;
+}
+
+#contacts {
+	float: right;
+	text-indent: 15px;
+	color: red;
+	columns: 1;
+	margin: 5px 50px 5px 5px;
+	border: 1px solid white; width: 30%;
+	position: relative;
+}
+
+#lost{
+	height: 600px;
+	width: 600px;
+}
+/*.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+	.popup .close:hover {
+	  color: #06D85F;
+	}
+	.popup .close {
+	  position: absolute;
+	  top: 20px;
+	  right: 30px;
+	  transition: all 200ms;
+	  font-size: 30px;
+	  font-weight: bold;
+	  text-decoration: none;
+	  color: #333;
+	}
+
+	.popup .content {
+	  max-height: 30%;
+	  overflow: auto;
+	}
+
+	  .popup{
+	    width: 70%;
+	  }
+}*/
+/*}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 3px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}*/
